@@ -8,7 +8,7 @@ class bcolors:
     
 req = requests.session()
 url = "http://127.0.0.1/login.php" #Aqui vai a url do site
-a = open("combo.txt", "r") #aqui é o txt da payload
+a = open("payload.txt", "r") #aqui é o txt da payload
 stop = "default"
 file = [s.rstrip()for s in a.readlines()]
 # print(file)
